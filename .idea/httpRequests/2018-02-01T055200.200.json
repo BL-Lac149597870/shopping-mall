@@ -1,0 +1,115 @@
+{
+  "code": 0,
+  "data": [
+    {
+      "id": 1,
+      "pid": 0,
+      "name": "",
+      "subTitle": "文青配色、质感精良",
+      "title": "坚果 Pro 2 文青保护套",
+      "price": 0,
+      "stock": 0,
+      "color": "http://127.0.0.1:9999/public/attachments/",
+      "cover": "http://127.0.0.1:9999/public/attachments/",
+      "album": ""
+    },
+    {
+      "id": 2,
+      "pid": 1,
+      "name": "苏芳",
+      "subTitle": "",
+      "title": "",
+      "price": 10900,
+      "stock": 9999,
+      "color": "http://127.0.0.1:9999/public/attachments/1-sufang.jpg",
+      "cover": "http://127.0.0.1:9999/public/attachments/1-sufang-cover.webp",
+      "album": [
+        "http://127.0.0.1:9999/public/attachments/1-sufang-album-1.webp",
+        "http://127.0.0.1:9999/public/attachments/1-sufang-album-2.webp",
+        "http://127.0.0.1:9999/public/attachments/1-sufang-album-3.webp",
+        "http://127.0.0.1:9999/public/attachments/1-sufang-album-4.webp",
+        "http://127.0.0.1:9999/public/attachments/1-sufang-album-5.webp"
+      ]
+    },
+    {
+      "id": 3,
+      "pid": 1,
+      "name": "远州鼠",
+      "subTitle": "",
+      "title": "",
+      "price": 12000,
+      "stock": 9999,
+      "color": "http://127.0.0.1:9999/public/attachments/1-yuanzhoushu.jpg",
+      "cover": "http://127.0.0.1:9999/public/attachments/1-yuanzhoushu-cover.webp",
+      "album": [
+        "http://127.0.0.1:9999/public/attachments/1-yuanzhoushu-album-1.webp",
+        "http://127.0.0.1:9999/public/attachments/1-yuanzhoushu-album-2.webp",
+        "http://127.0.0.1:9999/public/attachments/1-yuanzhoushu-album-3.webp",
+        "http://127.0.0.1:9999/public/attachments/1-yuanzhoushu-album-4.webp"
+      ]
+    },
+    {
+      "id": 4,
+      "pid": 1,
+      "name": "柳煤竹茶",
+      "subTitle": "",
+      "title": "",
+      "price": 7900,
+      "stock": 9999,
+      "color": "http://127.0.0.1:9999/public/attachments/1-liumeizhucha.jpg",
+      "cover": "http://127.0.0.1:9999/public/attachments/1-liumeizhucha-cover.webp",
+      "album": [
+        "http://127.0.0.1:9999/public/attachments/1-liumeizhucha-album-1.webp",
+        "http://127.0.0.1:9999/public/attachments/1-liumeizhucha-album-2.webp",
+        "http://127.0.0.1:9999/public/attachments/1-liumeizhucha-album-3.webp",
+        "http://127.0.0.1:9999/public/attachments/1-liumeizhucha-album-4.webp"
+      ]
+    },
+    {
+      "id": 5,
+      "pid": 0,
+      "name": "",
+      "subTitle": "TPU 环保材质、完美贴合",
+      "title": "坚果 Pro 2 软胶保护套",
+      "price": 0,
+      "stock": 0,
+      "color": "http://127.0.0.1:9999/public/attachments/",
+      "cover": "http://127.0.0.1:9999/public/attachments/",
+      "album": ""
+    },
+    {
+      "id": 6,
+      "pid": 5,
+      "name": "红色",
+      "subTitle": "",
+      "title": "",
+      "price": 4900,
+      "stock": 9999,
+      "color": "http://127.0.0.1:9999/public/attachments/2-red.jpg",
+      "cover": "http://127.0.0.1:9999/public/attachments/2-red-cover.png",
+      "album": [
+        "http://127.0.0.1:9999/public/attachments/2-red-album-1.png",
+        "http://127.0.0.1:9999/public/attachments/2-red-album-2.png",
+        "http://127.0.0.1:9999/public/attachments/2-red-album-3.png",
+        "http://127.0.0.1:9999/public/attachments/2-red-album-4.png",
+        "http://127.0.0.1:9999/public/attachments/2-red-album-5.png"
+      ]
+    },
+    {
+      "id": 7,
+      "pid": 5,
+      "name": "黑色",
+      "subTitle": "",
+      "title": "",
+      "price": 4900,
+      "stock": 9999,
+      "color": "http://127.0.0.1:9999/public/attachments/2-black.jpg",
+      "cover": "http://127.0.0.1:9999/public/attachments/2-black-cover.png",
+      "album": [
+        "http://127.0.0.1:9999/public/attachments/2-black-album-1.png",
+        "http://127.0.0.1:9999/public/attachments/2-black-album-2.png",
+        "http://127.0.0.1:9999/public/attachments/2-black-album-3.png"
+      ]
+    }
+  ]
+}

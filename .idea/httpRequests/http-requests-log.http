@@ -1,0 +1,168 @@
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050110-1.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050110.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050109-2.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050109-1.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050109.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050108.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050022.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050021-2.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050021-1.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T050021.200.json
+
+###
+
+GET http://localhost:9999/cart
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T045636.200.json
+
+###
+
+POST http://localhost:9999/cart/add?=&item_id=3&quantity=2
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-02T022754.415.html
+
+###
+
+GET http://localhost:9999/verify
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T063531.200.json
+
+###
+
+GET http://localhost:9999/verify
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T063435.200.json
+
+###
+
+GET http://localhost:9999/verify
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T063415.200.json
+
+###
+
+GET http://localhost:9999/verify
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T063347.200.json
+
+###
+
+POST http://localhost:9999/login
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T055255.415.html
+
+###
+
+POST http://localhost:9999/login?username=qianhao&password=12345
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T055211.415.html
+
+###
+
+GET http://localhost:9999/item?username=qianhao&password=12345
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T055200.200.json
+
+###
+
+POST http://localhost:9999/login?username=qianhao&password=12345
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T055135.415.html
+
+###
+
+POST http://localhost:3000/api/login?username=qianhao&password=12345
+Accept: */*
+Cache-Control: no-cache
+
+<> 2018-02-01T055107.415.html
+
+###
+
