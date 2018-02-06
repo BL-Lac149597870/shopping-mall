@@ -12,12 +12,9 @@ import '../../assets/css/checkout.css';
 class CheckOut extends Component {
 
     componentDidMount(){
-            this.props.dispatch( verify() ).then( res => {
-                this.props.dispatch( fetchAddress(this.props.user.data.id) );
-            } );
-        // if(!this.props.user.data){
-        //
-        // }
+        this.props.dispatch( verify() ).then( res => {
+            this.props.dispatch( fetchAddress(this.props.user.data.id) );
+        } );
     }
 
     render(){
@@ -140,7 +137,7 @@ class CheckOut extends Component {
                     </div>
                     <div className="box-inner">
                         <div className="last-payment clear">
-                            <span className="jianguo-blue-main-btn big-main-btn payment-blue-bt fn-right js-checkout"> <a>提交订单</a> </span> <span className="prices fn-right">应付金额： <em>¥ 297.00</em></span>
+                            <span className="jianguo-blue-main-btn big-main-btn payment-blue-bt fn-right js-checkout"> <Link to={'/payment'}>提交订单</Link> </span> <span className="prices fn-right">应付金额： <em>¥ 297.00</em></span>
                         </div>
                     </div>
                 </div>

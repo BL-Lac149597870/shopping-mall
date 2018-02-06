@@ -1,11 +1,12 @@
 import React, {Component} from 'react';
-
-import '../../assets/css/cart.css';
+import {connect} from 'react-redux';
+import {Link} from 'react-router-dom';
 
 import CartItem from '../../components/cart/cartPageItem';
-
-import {connect} from 'react-redux';
 import {changeChecked, fetchCarts} from "../../actions/cart";
+
+
+import '../../assets/css/cart.css';
 
 class Cart extends Component {
 
@@ -85,7 +86,7 @@ class Cart extends Component {
 
                                 </div>
                             </div>
-                            <span className={["jianguo-blue-main-btn big-main-btn js-checkout",this.props.items.data.filter( item => item.checked ).length?'':'disabled-btn'].join(' ')}><a>现在结算</a></span>
+                            <span className={["jianguo-blue-main-btn big-main-btn js-checkout",this.props.items.data.filter( item => item.checked ).length?'':'disabled-btn'].join(' ')}><Link to={'/checkOut'}>现在结算</Link></span>
                         </div>
                     </div>
 
@@ -114,8 +115,6 @@ class Cart extends Component {
                             <h2>购物清单</h2>
                         </div>
                         {this.viewCart()}
-
-
                     </div>
                 </div>
             </div>

@@ -209,6 +209,9 @@
     float: left;
     margin-right: 5px;
 }
+#pop .address-form .blue-checkbox-on {
+    background-position: 0 -20px;
+}
 #pop .dialog-blue-btn{
     padding: 1px;
     background: #6383C6;

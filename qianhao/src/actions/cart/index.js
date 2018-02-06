@@ -10,7 +10,6 @@ import axios from "axios/index";
 export const fetchCarts = ()=>{
     return dispatch => {
         return axios.get('/api/cart').then(res => {
-            console.log(res)
             dispatch({
                 type: 'FETCH_CARTS',
                 payload: res.data
@@ -46,6 +45,12 @@ export const deleteToCart = (cart_id)=>{
     }
 };
 
+/**
+ * 改变购物车商品选中状态
+ * @param cart_id
+ * @param checked
+ * @returns {function(*)}
+ */
 export const changeChecked = (cart_id,checked)=>{
     return dispatch => {
         return axios.post('/api/cart/checked',{cart_id,checked}).then(res => {

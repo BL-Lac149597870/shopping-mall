@@ -7,7 +7,7 @@ class AddressItem extends Component {
     render(){
         return (
             <li
-                className="js-choose-address  selected-address-item">
+                className={["js-choose-address",this.props.item.isDefault?'selected-address-item':''].join(' ')}>
                 <Link to={"/editAddress/" + this.props.index}>
                 <div className="address-item">
                     <div className="name-section">{this.props.item.username}</div>
