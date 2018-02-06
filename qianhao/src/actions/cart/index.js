@@ -10,6 +10,7 @@ import axios from "axios/index";
 export const fetchCarts = ()=>{
     return dispatch => {
         return axios.get('/api/cart').then(res => {
+            console.log(res)
             dispatch({
                 type: 'FETCH_CARTS',
                 payload: res.data

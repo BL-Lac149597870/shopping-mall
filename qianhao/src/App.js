@@ -3,7 +3,7 @@ import {Route,Switch} from 'react-router-dom';
 
 import Login from './pages/login/index';
 import HaveHeader from './components/haveHeader/index';
-
+import EditAddress from './components/checkOut/editAddress';
 
 import './assets/css/reset.css';
 
@@ -13,6 +13,7 @@ class App extends Component {
       <div>
           <Switch>
               <Route path='/login' component={Login} />
+              <Route path='/editAddress/:index' component={EditAddress} />
               <Route component={HaveHeader}/>
           </Switch>
 

@@ -1,6 +1,7 @@
 import React, {Component} from 'react';
 import '../../assets/css/login.css';
 import {login} from '../../actions/login/index';
+import {fetchCarts} from "../../actions/cart";
 
 import {connect} from 'react-redux';
 
@@ -13,7 +14,7 @@ class Login extends Component {
         this.props.dispatch( login(username,password) ).then(data => {
             if(data.code === 0 ||data.code === 1){
                 this.props.history.push('/');
-                console.log(1)
+                this.props.dispatch( fetchCarts() );
             }
         });
     }

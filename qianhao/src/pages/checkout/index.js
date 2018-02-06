@@ -1,11 +1,13 @@
 import React, {Component} from 'react';
-
-import '../../assets/css/checkout.css';
-
-import AddressItem from '../../components/checkOut/adressList';
 import {connect} from 'react-redux';
 import {fetchAddress} from "../../actions/user";
 import {verify} from "../../actions/verify";
+import {Link} from 'react-router-dom';
+
+import AddressItem from '../../components/checkOut/adressList';
+
+import '../../assets/css/address-pop.css';
+import '../../assets/css/checkout.css';
 
 class CheckOut extends Component {
 
@@ -29,9 +31,11 @@ class CheckOut extends Component {
                         <div className="box-inner js-checkout-address-panel ">
                             <div className="address-common-table js-multiple-address-panel">
                                 <ul className="address-item-list clear js-address-item-list">
-                                    {this.props.address.data&&this.props.address.data.map( (item,index) => <AddressItem key={index} item={item}/> )}
+                                    {this.props.address.data&&this.props.address.data.map( (item,index) => <AddressItem key={index} item={item} index={index} /> )}
                                     <li className="add-address-item js-add-address">
-                                        <p>使用新地址</p>
+                                        <Link to={"/editAddress/" + this.props.index}>
+                                            <p>使用新地址</p>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

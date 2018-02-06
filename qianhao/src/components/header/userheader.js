@@ -3,11 +3,14 @@ import React, {Component} from 'react';
 import {connect} from 'react-redux';
 import {Link} from 'react-router-dom';
 import {logOut} from '../../actions/logout/index';
+import {fetchCarts} from "../../actions/cart";
 
 class UserHeader extends Component {
 
     logOut(){
-        this.props.dispatch( logOut() );
+        this.props.dispatch( logOut() ).then( res => {
+            this.props.dispatch( fetchCarts() );
+        } );
     }
 
     viewUser(){

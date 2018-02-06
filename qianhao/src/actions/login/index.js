@@ -10,10 +10,6 @@ export const login = (username,password)=>{
                 type: 'USER_UPDATE',
                 payload: res.data
             });
-
-
-
-
             return Promise.resolve(res.data);
         });
     }

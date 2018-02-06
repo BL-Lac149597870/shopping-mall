@@ -90,8 +90,8 @@ class CartHeader extends Component {
             <li className="nav-cart">
                 <a href=" ">购物车</a>
                 <span className="cart-empty-num cart-num">
-								<i>{this.props.carts.data&&this.props.carts.data.length}</i>
-							</span>
+                    <i>{Array.isArray(this.props.carts.data)&&this.props.carts.data.length||0}</i>
+                </span>
                 <div className="nav-cart-wrapper">
                     <div className="nav-cart-list">
                         {this.viewCarts()}
